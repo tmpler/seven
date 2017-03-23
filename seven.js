@@ -1,7 +1,7 @@
 var Seven = function() {
   this.size = rInt(8,60);
-  this.left = rInt(100,900)/10;
-  this.top = rInt(100,900)/10;
+  this.left = (rInt(0,1000)/10);
+  this.top = (rInt(0,1000)/10);
   this.color = "rgb(" + rInt(0,255) + "," + rInt(0,255) + "," + rInt(0,255) + ")";
 };
 
@@ -18,7 +18,7 @@ var generateSeven = function(){
 };
 
   setInterval(function(){
-    if(rInt(0,777)==7){
+    if(true){
       generateSeven();
     }
   }, 1);
