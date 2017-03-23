@@ -18,7 +18,7 @@ var generateSeven = function(){
 };
 
   setInterval(function(){
-    if(true){
+    if(trInt(0,777)==7){
       generateSeven();
     }
   }, 1);
