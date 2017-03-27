@@ -14,7 +14,7 @@ function rInt(min, max) {
 var generateSeven = function(){
   var seven = new Seven();
   var html = "<p style='position:absolute;top:"+seven.top+"%;left:"+seven.left+"%;font-size:"+seven.size+"px;color:"+seven.color+"'>7</p>";
-  document.getElementById('body').innerHTML += html;
+  document.getElementByTagName('body')[0].innerHTML += html;
 };
 
   setInterval(function(){
